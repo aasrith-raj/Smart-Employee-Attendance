@@ -38,3 +38,20 @@ A Python-based smart attendance system that uses face recognition and geolocatio
 
 ## 📁 Project Structure
 
+├── attendance_gui.py # Main GUI launcher
+├── register_faces.py # Register new employees
+├── recognize_and_log.py # Face recognition & attendance logging
+├── geolocation.py # Fetch IP-based location
+├── database.csv # Attendance log file
+├── dataset/ # Folder containing registered face images
+└── README.md # Project documentation
+
+
+## 🛠️ Installation
+
+1. Install required libraries:
+   ```bash
+   pip install opencv-python face_recognition Pillow geocoder numpy
+
+2. Run the GUI:
+   python attendance_gui.py
